@@ -1,0 +1,15 @@
+[toolchain]
+
+[features]
+seeds = false
+skip-lint = false
+
+[programs.localnet]
+trove-manager = "CVGT8oK6mDzdr3cfXABSGZLuhAgLY5LBz1qpvQiCmwqQ"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "Localnet"
+wallet = "./wallet.json"
